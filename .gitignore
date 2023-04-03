@@ -1,0 +1,58 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+[Bb]in/
+[Oo]bj/
+
+# SvnServe
+!deploy/gde/visualSvnServer/bin
+
+# User-specific files
+*.DS_Store
+*.suo
+*.user
+nupkgs/*
+working/*
+test/apiDoc/Reports/*
+.vs
+.idea
+.fake/
+
+src/*/ready.txt
+test/test-api-doc/TigerApiDocTest/*
+test/test-api-doc/Reports/*
+packages/
+tmp/*
+build/tools/ps-gets
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+*.obj
+*.pch
+*.pdb
+*.log
+.builds
+
+# ReSharper is a .NET coding add-in
+_ReSharper*
+
+# Others
+TestResults
+[Tt]est[Rr]esult*
+*.Cache
+*.cache
+
+build/build-tools/Fortify/report
+
+#logs
+logs
+
+/src/**/AppConfigKeys.txt
+/test/**/AppConfigKeys.txt
+
+.tools
+
+# Visual Studio Code
+.vscode
+
+#sonarqube
+.sonarqube
